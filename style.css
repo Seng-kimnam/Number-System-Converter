@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color:white;
+}
+
+.container {
+    /* background-color: red; */
+    border: 2px solid cyan ;
+    padding: 10%;
+     
+}
+#binary{
+    margin: .5%;
+    width: 100%;
+    padding: 5px;
+     
+}
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid transparent;
+    color:white;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+
+}
+button:hover{
+    color:green;
+    font-weight: bold;
+    
+} 
+
+input:hover{
+    outline:transparent;
+}
+input:focus{
+    /* outline: none; */
+    outline: none;
+}
+input , label , p{
+    font-size: 25px;
+}
